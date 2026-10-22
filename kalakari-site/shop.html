@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shop all products | Kalakari Designs</title>
+  <meta name="description" content="Browse candles, planters, desk decorators, bathroom organisers, gaming accessories and more from Kalakari Designs.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Shop all products | Kalakari Designs">
+  <meta property="og:description" content="Browse candles, planters, desk decorators, bathroom organisers, gaming accessories and more from Kalakari Designs.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='28' fill='%23ff7a1a'/%3E%3Ctext x='50' y='70' font-size='62' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3E%E0%A4%95%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html" aria-label="Kalakari Designs home"><span class="brand__mark" aria-hidden="true">क</span>Kalakari</a>
+      <button class="nav__burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+      <div class="nav__links">
+        <a class="nav__link" href="index.html">Home</a>
+        <div class="nav__drop">
+          <button class="nav__dropbtn" aria-expanded="false" aria-haspopup="true">Products
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m2 4 4 4 4-4"/></svg></button>
+          <div class="nav__menu"><a href="shop.html?cat=candles">Candles</a><a href="shop.html?cat=planters">Planters</a><a href="shop.html?cat=key-chains">Key Chains</a><a href="shop.html?cat=coasters">Coasters</a><a href="shop.html?cat=fridge-magnets">Fridge Magnets</a><a href="shop.html?cat=toys">Toys</a><a href="shop.html?cat=desk-gadgets">Office Desk Decorators</a><a href="shop.html?cat=jewelry-box">Jewelry Box</a><a href="shop.html?cat=wall-decor">Wall Decor</a><a href="shop.html?cat=bathroom">Bathroom Solutions</a><a href="shop.html?cat=kitchen">Kitchen</a><a href="shop.html?cat=gaming">Gaming</a></div>
+        </div>
+        <a class="nav__link" href="blog.html">Blog</a>
+        <a class="nav__link" href="about.html">About</a>
+        <a class="nav__link" href="contact.html">Contact us</a>
+      </div>
+      <a class="btn btn--orange btn--sm nav__cta" href="shop.html">Show products <span class="btn__arrow" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 10 10 2M4 2h6v6"/></svg></span></a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-hero">
+  <div class="container"><div class="page-hero__panel">
+    <h1>All products</h1>
+    <p>Designs that make you say WOW, at prices that make you say HOW.</p>
+  </div></div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="toolbar">
+      <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+      <label for="search" style="position:absolute;left:-9999px">Search products</label>
+      <input class="input" id="search" type="search" placeholder="Search products">
+      <label for="sort" style="position:absolute;left:-9999px">Sort products</label>
+      <select class="select" id="sort"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select>
+      <span id="count" role="status" style="font-weight:600;color:var(--ink-soft)"></span>
+    </div>
+    <div class="grid" id="shop-grid"></div>
+  </div>
+</section>
+
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer__cols">
+      <div class="footer__about">
+        <a class="brand" href="index.html"><span class="brand__mark" aria-hidden="true">क</span>Kalakari designs</a>
+        <p>Gifts that tell your story. Personalised home decor, made with care.</p>
+        <a class="btn btn--orange btn--sm" href="https://www.instagram.com/kalakari_designs_/" target="_blank" rel="noopener">Follow us on Instagram <span class="btn__arrow" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 10 10 2M4 2h6v6"/></svg></span></a>
+      </div>
+      <div>
+        <h4>Main</h4>
+        <ul><li><a href="shop.html">Products</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Support</a></li><li><a href="contact.html">Contact us</a></li></ul>
+      </div>
+      <div>
+        <h4>Custom service</h4>
+        <ul><li><a href="#">Shipping &amp; Delivery</a></li><li><a href="#">Return Policy</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">About Payment</a></li><li><a href="#">Terms of Service</a></li></ul>
+      </div>
+      <div>
+        <h4>Shop by category</h4>
+        <ul><li><a href="shop.html?cat=candles">Candles</a></li><li><a href="shop.html?cat=planters">Planters</a></li><li><a href="shop.html?cat=desk-gadgets">Desk decorators</a></li><li><a href="shop.html?cat=wall-decor">Wall decor</a></li></ul>
+      </div>
+    </div>
+    <div class="footer__wordmark" aria-hidden="true">kalakari</div>
+  </div>
+  <div class="container footer__legal">
+    <span>© <span data-year>2026</span> Kalakari designs | All Rights Reserved</span>
+    <span>Created by Indians with 🧡</span>
+  </div>
+</footer>
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
